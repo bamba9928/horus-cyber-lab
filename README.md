@@ -271,7 +271,7 @@ mkdir -p ~/lab && cd ~/lab
 # place le docker-compose.yml de ce repo ici
 ```
 
-Le fichier [`docker-compose.yml`](docker-compose.yml) est fourni à la racine du dépôt.
+Le fichier [`pentest-lab/docker-compose.yml`](pentest-lab/docker-compose.yml) est fourni à la racine du dépôt.
 
 ### Lancer et vérifier
 
@@ -295,7 +295,7 @@ docker compose logs -f juice-shop   # suivre le démarrage
 
 ### 8.1 Metasploitable — cible réseau multi-services
 
-Pour l'exploitation réseau (FTP, SMB, SSH, bases de données), ajoute au `docker-compose.yml` :
+Pour l'exploitation réseau (FTP, SMB, SSH, bases de données), ajoute au `pentest-lab/docker-compose.yml` :
 
 ```yaml
   metasploitable:
@@ -538,6 +538,6 @@ docker stats               # surveiller la conso
 
 ## Licence
 
-Distribué sous licence MIT. Voir [`LICENSE`](LICENSE).
+Distribué sous licence MIT. Voir [`LICENSE`](pentest-lab/LICENSE).
 
 *Document pédagogique — sécurité offensive sur infrastructure propre. À n'appliquer que sur des systèmes t'appartenant ou pour lesquels tu détiens une autorisation écrite.*
