@@ -1,0 +1,31 @@
+# Ne jamais committer de secrets ou d'artefacts de session
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+lab_vps*
+.env
+*.env
+
+# Sorties d'outils et loot
+scan*.txt
+*.nmap
+*.gnmap
+*.xml
+loot/
+output/
+reports/
+*.log
+
+# Wordlists volumineuses (à télécharger, pas à versionner)
+wordlists/
+*.lst
+rockyou.txt
+
+# Volumes / données Docker locales
+data/
+volumes/
+
+# Système
+.DS_Store
+Thumbs.db
